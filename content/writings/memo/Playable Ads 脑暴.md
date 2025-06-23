@@ -1,0 +1,53 @@
+---
+title: Playable Ads 脑暴
+date: 2025-04-30
+tags:
+  - writing
+  - playable-ads
+draft: false
+---
+- 定义
+	- Playable ads are interactive advertisements that allow users to experience a miniature version or demo of an app or game directly within the ad itself before installing it. Unlike traditional static or video ads, playable ads provide hands-on engagement where users can try core features or gameplay elements for a brief period, typically between 15-60 seconds.
+	- While initially popularized for mobile games, playable ads have expanded to non-gaming applications as well, allowing users to interact with simplified versions of features from productivity, e-commerce, and other app categories.
+- 结构
+	- 1. An intro or tutorial explaining how to interact with the ad.
+	- 2. A core gameplay or interactive mechanic that represents the app's key features.
+	- 3. Feedback mechanisms to show progress or success.
+	- 4. A clear call-to-action (CTA) prompting users to download the full app.
+- 方向 1. 图片/视频交互类
+	- 图片交互
+	- 视频交互
+- 方向 2. 游戏模板类
+	- 玩法筛选原则
+		- 仅需一个动作进行控制
+		- 竖屏
+		- 可配置化替换素材
+		- 紧迫感：给到用户的潜意识是“我必须马上做点什么，不然就有不好的事情发生”，风险  vs 收益；音效可以带来紧迫感。
+		- 爽感：实施“善”？释放“恶”？哪种带来的爽感更强？
+	- 游戏玩法类型
+		- 三消类：紧迫感，连消带来爽感。参考 [PlayableFactory](https://playablefactory.com/our-works/#game-playables) 中的 Royal Match
+		- 逃脱类：紧迫感，参考 [Doodle Jump](https://doodlejump24.io/)， [homeescape](https://www.gameflare.com/online-game/homescapes/)
+		- 营救类：参考 [PlluzeChaos](https://h5.aplayable.com/tecDo1/PlluzeChaos_build/2/index.html)
+		- 割草类：参考 [FishRouglike](https://playable.playrix.com/creatives/playable/FD/FD10384v1/e38a9/)
+		- 模拟经营类：参考 [Farm](https://x-ad-assets.s3.amazonaws.com/media_asset/9cacc7638e46d23c/index.html?)
+		- 塔防类：
+		- 模拟清洁/修复：将杂乱、肮脏或破损的东西变得整洁、闪亮、完好如初，能带来强烈的心理满足感，非常解压。比如：用户可以使用高压水枪或刷子将一张不满灰尘的卡片清理干净，最后完整展现图片的角色，角色最后还可以动起来。
+		- 裸眼 3D 广告：模拟微信朋友圈的 裸眼 3D 广告，通过代码控制实现裸眼 3D 效果，效率更高，成本更低。
+		- *引起用户好奇心的玩法* ：磨砂玻璃或窗纸展现剪影， 提示正在发生危险的事情， 用户打破玻璃或窗纸后，其实发现是游戏角色在玩闹，最后角色能动起来引导用户去玩游戏。可能恐怖货擦边的剪影对用户才比较有吸引力？概念设计图如下： ![](https://futurelog-1251943639.cos.accelerate.myqcloud.com/img/20250611153120.png)
+	- 游戏制作列表
+		-  [MatchRescue](https://github.com/OnePieceVerse/PlayableAds-Templates/tree/main/MatchRescue)✅：三消类+营救类
+		- [JumpEscape](https://github.com/OnePieceVerse/PlayableAds-Templates/tree/main/JumpEscape)✅：逃脱类
+		- BreakRescue：通过磨砂玻璃隐约看到有危险靠近角色，打碎玻璃营救角色，角色最后表达感谢。
+		- Solitaire：纸牌接龙 - 纸牌上的图案是 游戏角色 或 游戏场景，游戏每次展示三张候选牌给用户，用户选择使用哪张去完成接龙，一共进行 3～5 轮。倒计时营造紧迫感！
+		- 全民飞机大战：紧迫感（倒计时爆炸，拾取道具加速）
+		- 打“地鼠”：结合节奏，打出一首简单歌曲（如两只老虎等）
+- 里程碑
+	- MVP：实现可替换素材，其他配置化先不考虑
+		- 时间：2025-05
+		- 方向 1： ryon负责
+		- 方向 2：jude负责
+- 平台要求: https://2dkit.com/playable-ads/playable-ad-networks/
+	- Google：Zip file format. size limit of *5 MB*, contain no more than 512 files.
+	- Facebook: Zip file format. size limit of *5 MB*, contain no more than 100 files, and the individual `index.html` file should not exceed 2MB.
+	- Unity：a single, inlined, and minified HTML file (index.html) with no external links, size limit of *5 MB*. 
+	- ironSource: Zip file format. suggest size limit of *4 MB*.

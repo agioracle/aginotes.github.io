@@ -7,7 +7,7 @@ tags:
   - prompt engineering
   - openai
 thumbnail: https://futurelog-1251943639.cos.accelerate.myqcloud.com/img/202401011111839.png
-draft: true
+draft: false
 ---
 
 *原文地址：https://platform.openai.com/docs/guides/prompt-engineering*
@@ -16,7 +16,7 @@ draft: true
 ## 一、 TL;DR：获得更好结果的六大策略
 ### 1.1 策略一：编写清晰的指示
  如果不能给出清晰的指示，大语言模型并不能清楚地知道你想要什么。如果模型的输出太长了，就请要求简短答复；如果输出太简单，就请要求专家级别的详细回复；如果输出的格式不是所希望的，就请您给出希望看到的格式的示例。总之，越少让模型去猜测你想要什么，你得到所希望的结果的可能性就越大。
- 
+
 具体措施：
  - [在您的查询中包含详细信息以获得更相关的答案]()
  - [角色扮演]()

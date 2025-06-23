@@ -145,3 +145,129 @@ annotation-target-type: pdf
 >%%TAGS%%
 >
 ^c91cuf3339
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-24T03:55:42.704Z","updated":"2025-02-24T03:55:42.704Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/Obsidian-Notes/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/Obsidian-Notes/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/Obsidian-Notes/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":107733,"end":107926},{"type":"TextQuoteSelector","exact":" the  embeddinglayer approach described here is essentially just a more efficient way of imple-menting  one-hot  encoding  followed  by  matrix  multiplication  in  a  fully  con-nected  layer,","prefix":"iliar  with  one-hot  encoding, ","suffix":"  which  is  illustrated  in  th"}]}]}
+>```
+>%%
+>*%%PREFIX%%iliar  with  one-hot  encoding,%%HIGHLIGHT%% ==the  embeddinglayer approach described here is essentially just a more efficient way of imple-menting  one-hot  encoding  followed  by  matrix  multiplication  in  a  fully  con-nected  layer,== %%POSTFIX%%which  is  illustrated  in  th*
+>%%LINK%%[[#^kj2x63vincm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kj2x63vincm
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T02:38:49.518Z","updated":"2025-03-06T02:38:49.518Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":111645,"end":111772},{"type":"TextQuoteSelector","exact":"use two broad categories of position-aware embeddings: rela-tive  positional  embeddings  and  absolute  positional  embeddings","prefix":"he LLM. To achieve this, we can ","suffix":".  Absolute  positionalembedding"}]}]}
+>```
+>%%
+>*%%PREFIX%%he LLM. To achieve this, we can%%HIGHLIGHT%% ==use two broad categories of position-aware embeddings: rela-tive  positional  embeddings  and  absolute  positional  embeddings== %%POSTFIX%%.  Absolute  positionalembedding*
+>%%LINK%%[[#^xyr0pbsjbrf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xyr0pbsjbrf
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T02:41:48.951Z","text":"推理时支持更长的上下文 就是由于使用了这个 relative positional embeddings 技术吗？","updated":"2025-03-06T02:41:48.951Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":112163,"end":112577},{"type":"TextQuoteSelector","exact":"Instead of focusing on the absolute position of a token, the emphasis of relative posi-tional embeddings is on the relative position or distance between tokens. This meansthe model learns the relationships in terms of “how far apart” rather than “at whichexact position.” The advantage here is that the model can generalize better to sequencesof varying lengths, even if it hasn’t seen such lengths during training","prefix":"n, as illustrated infigure 2.18.","suffix":".  Both  types  of  positional  "}]}]}
+>```
+>%%
+>*%%PREFIX%%n, as illustrated infigure 2.18.%%HIGHLIGHT%% ==Instead of focusing on the absolute position of a token, the emphasis of relative posi-tional embeddings is on the relative position or distance between tokens. This meansthe model learns the relationships in terms of “how far apart” rather than “at whichexact position.” The advantage here is that the model can generalize better to sequencesof varying lengths, even if it hasn’t seen such lengths during training== %%POSTFIX%%.  Both  types  of  positional*
+>%%LINK%%[[#^9xvzkb5m8k|show annotation]]
+>%%COMMENT%%
+>推理时支持更长的上下文 就是由于使用了这个 relative positional embeddings 技术吗？
+>%%TAGS%%
+>
+^9xvzkb5m8k
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T03:18:39.795Z","updated":"2025-03-06T03:18:39.795Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":117324,"end":117608},{"type":"TextQuoteSelector","exact":"Summary LLMs  require  textual  data  to  be  converted  into  numerical  vectors,  known  asembeddings, since they can’t process raw text. Embeddings transform discretedata (like words or images) into continuous vector spaces, making them com-patible with neural network operations.","prefix":"CHAPTER 2 Working with text data","suffix":"  As the first step, raw text i"}]}]}
+>```
+>%%
+>*%%PREFIX%%CHAPTER 2 Working with text data%%HIGHLIGHT%% ==Summary LLMs  require  textual  data  to  be  converted  into  numerical  vectors,  known  asembeddings, since they can’t process raw text. Embeddings transform discretedata (like words or images) into continuous vector spaces, making them com-patible with neural network operations.== %%POSTFIX%% As the first step, raw text i*
+>%%LINK%%[[#^gr01siaaysl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gr01siaaysl
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T03:18:50.974Z","updated":"2025-03-06T03:18:50.974Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":117611,"end":117773},{"type":"TextQuoteSelector","exact":"As the first step, raw text is broken into tokens, which can be words or characters.Then, the tokens are converted into integer representations, termed token IDs.","prefix":"th neural network operations.  ","suffix":" Special tokens, such as <|unk|"}]}]}
+>```
+>%%
+>*%%PREFIX%%th neural network operations. %%HIGHLIGHT%% ==As the first step, raw text is broken into tokens, which can be words or characters.Then, the tokens are converted into integer representations, termed token IDs.== %%POSTFIX%% Special tokens, such as <|unk|*
+>%%LINK%%[[#^vcrr1zqa4vd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^vcrr1zqa4vd
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T03:19:08.593Z","updated":"2025-03-06T03:19:08.593Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":117775,"end":117981},{"type":"TextQuoteSelector","exact":"Special tokens, such as <|unk|> and <|endoftext|>, can be added to enhancethe  model’s  understanding  and  handle  various  contexts,  such  as  unknownwords or marking the boundary between unrelated texts","prefix":"esentations, termed token IDs. ","suffix":".GPT-likedecoder-onlytransformer"}]}]}
+>```
+>%%
+>*%%PREFIX%%esentations, termed token IDs.%%HIGHLIGHT%% ==Special tokens, such as <|unk|> and <|endoftext|>, can be added to enhancethe  model’s  understanding  and  handle  various  contexts,  such  as  unknownwords or marking the boundary between unrelated texts== %%POSTFIX%%.GPT-likedecoder-onlytransformer*
+>%%LINK%%[[#^998raj6zt48|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^998raj6zt48
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T03:19:25.065Z","updated":"2025-03-06T03:19:25.065Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":118599,"end":118884},{"type":"TextQuoteSelector","exact":"The byte pair encoding (BPE) tokenizer used for LLMs like GPT-2 and GPT-3can  efficiently  handle  unknown  words  by  breaking  them  down  into  subwordunits or individual characters. We use a sliding window approach on tokenized data to generate input–targetpairs for LLM training.","prefix":" the main LLM layers.49Summary ","suffix":" Embedding layers in PyTorch fu"}]}]}
+>```
+>%%
+>*%%PREFIX%%the main LLM layers.49Summary%%HIGHLIGHT%% ==The byte pair encoding (BPE) tokenizer used for LLMs like GPT-2 and GPT-3can  efficiently  handle  unknown  words  by  breaking  them  down  into  subwordunits or individual characters. We use a sliding window approach on tokenized data to generate input–targetpairs for LLM training.== %%POSTFIX%% Embedding layers in PyTorch fu*
+>%%LINK%%[[#^ez2mkiobstb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ez2mkiobstb
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T03:19:32.726Z","updated":"2025-03-06T03:19:32.726Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":118886,"end":119133},{"type":"TextQuoteSelector","exact":"Embedding layers in PyTorch function as a lookup operation, retrieving vectorscorresponding to token IDs. The resulting embedding vectors provide continu-ous representations of tokens, which is crucial for training deep learning mod-els like LLMs.","prefix":"–targetpairs for LLM training. ","suffix":"  While  token  embeddings  pro"}]}]}
+>```
+>%%
+>*%%PREFIX%%–targetpairs for LLM training.%%HIGHLIGHT%% ==Embedding layers in PyTorch function as a lookup operation, retrieving vectorscorresponding to token IDs. The resulting embedding vectors provide continu-ous representations of tokens, which is crucial for training deep learning mod-els like LLMs.== %%POSTFIX%% While  token  embeddings  pro*
+>%%LINK%%[[#^awdcti9nknq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^awdcti9nknq
+
+
+>%%
+>```annotation-json
+>{"created":"2025-03-06T03:19:41.576Z","updated":"2025-03-06T03:19:41.576Z","document":{"title":"Build a Large Language Model (From Scratch)","link":[{"href":"urn:x-pdf:be381473cc3fa226dfca76b2da693c2e"},{"href":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf"}],"documentFingerprint":"be381473cc3fa226dfca76b2da693c2e"},"uri":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","target":[{"source":"vault:/assets/pdfs/build-a-large-language-model-from-scratch.pdf","selector":[{"type":"TextPositionSelector","start":119136,"end":119530},{"type":"TextQuoteSelector","exact":"While  token  embeddings  provide  consistent  vector  representations  for  eachtoken,  they  lack  a  sense  of  the  token’s  position  in  a  sequence.  To  rectify  this,two main types of positional embeddings exist: absolute and relative. OpenAI’sGPT models utilize absolute positional embeddings, which are added to the tokenembedding vectors and are optimized during the model training.","prefix":"p learning mod-els like LLMs.  ","suffix":"50Coding attentionmechanismsAt t"}]}]}
+>```
+>%%
+>*%%PREFIX%%p learning mod-els like LLMs. %%HIGHLIGHT%% ==While  token  embeddings  provide  consistent  vector  representations  for  eachtoken,  they  lack  a  sense  of  the  token’s  position  in  a  sequence.  To  rectify  this,two main types of positional embeddings exist: absolute and relative. OpenAI’sGPT models utilize absolute positional embeddings, which are added to the tokenembedding vectors and are optimized during the model training.== %%POSTFIX%%50Coding attentionmechanismsAt t*
+>%%LINK%%[[#^f4tz99bzsop|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^f4tz99bzsop
